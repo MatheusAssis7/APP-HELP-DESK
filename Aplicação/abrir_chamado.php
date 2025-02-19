@@ -1,7 +1,4 @@
-<?php
-session_start();
-echo $_SESSION['autenticado'];
-?>
+<? require_once 'valida_login.php' ?>
 
 <html>
   <head>
