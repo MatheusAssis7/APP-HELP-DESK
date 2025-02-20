@@ -18,6 +18,7 @@ foreach ($usuarios_app as $user) {
 if ($usuario_autenticado) {
     echo 'Usuário validado com sucesso';
     $_SESSION['autenticado'] = 'sim ';
+    header('location: home.php');
 } else {
     $_SESSION['autenticado'] = 'nâo';
     header('location: index.php?login=erro');
