@@ -1,4 +1,4 @@
-<? require_once 'valida_login.php' ?>
+<? require_once '../incorporando_scripts/validador_acesso.php' ?>
 
 <html>
   <head>
