@@ -4,7 +4,7 @@ session_start();
 
 $usuario_autenticado = false;
 $usuarios_app = array(
-    array('email' => 'adm@teste.com.br', 'senha' => '123456'),
+    array('email' => 'adm@teste.com.br', 'senha' => 'pk6577'),
     array('email' => 'user@1teste.com.br', 'senha' => 'A123456'),
 );
 

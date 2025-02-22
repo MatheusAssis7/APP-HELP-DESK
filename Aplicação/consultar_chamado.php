@@ -1,5 +1,5 @@
 <? require_once '../incorporando_scripts/validador_acesso.php' ?>
-<html>
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8" />
     <title>App Help Desk</title>
@@ -22,6 +22,11 @@
         <img src="../Imagens/logo.png" width="30" height="30" class="d-inline-block align-top" alt="">
         App Help Desk
       </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a href="logoOff.php">SAIR</a>
+        </li>
+      </ul>
     </nav>
 
     <div class="container">    
