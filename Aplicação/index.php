@@ -41,7 +41,6 @@
                 </div>
                 <? if(isset($_GET['login']) && $_GET ['login'] == 'erro'){?>
                 <div class="text-danger">
-                  usuario ou senha invalido
                 </div>
                 <?}?>
                 <button class="btn btn-lg btn-info btn-block" type="submit">Entrar</button>

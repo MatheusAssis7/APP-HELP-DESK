@@ -1,10 +1,4 @@
-<? require_once '../incorporando_scripts/validador_acesso.php' ?>
-<a?php
-session_status();
-
-echo $_SESSION ['autenticado'];
-?>
-
+<? require '../incorporando_scripts/validador_acesso.php' ?>
 <html>
   <head>
     <meta charset="utf-8" />
