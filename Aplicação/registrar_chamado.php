@@ -1,11 +1,10 @@
 <?php
-
-
+session_start();
 $titulo = str_replace('#', '-', $_POST)['Titulo'];
 $categoria = str_replace('#', '-', $_POST)['Categoria'];
 $desgrição = str_replace('#', '-', $_POST)['Descrição'];
 
-$texto = $titulo .'#'. $categoria .'#'. $desgrição . PHP_EOL;
+$texto = $_SESSION['id'] .'#'. $titulo .'#'. $categoria .'#'. $desgrição . PHP_EOL;
 //abrindo chamado
 $arquivo = fopen('../incorporando_scripts/arquivo.hd', 'a');
 //escrevendo chamado
