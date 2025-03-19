@@ -1,8 +1,10 @@
 <? require_once '../incorporando_scripts/validador_acesso.php' ?>
 <?php
 
+
+
 $chamados = array();
-$arquivo = fopen('../incorporando_scripts/arquivo.hd', 'r');
+$arquivo = fopen('../../../app-help-desk S/arquivo.hd', 'r');
 //enquanto houver regustros (linhas) a serem recuperadas
 while(!feof($arquivo)){//testa opelo fim de um arquivo
   $registro = fgets($arquivo);
@@ -52,8 +54,8 @@ fclose($arquivo);//fechando arquivo
     <?php foreach ($chamados as $chamado) {
         $chamados_dados = explode('#', $chamado);
 
-        if($_SESSION ['perfil_id'] == 2){
-          if($_SESSION['id'] != $chamados_dados [0]){
+        if($_SESSION = ['perfilId'] == 2){
+          if($_SESSION = ['id'] != $chamados_dados [0]){
             continue;
           }
         }
