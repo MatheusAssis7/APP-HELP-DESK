@@ -22,16 +22,3 @@ Este projeto é um sistema de Help Desk desenvolvido para gerenciar a abertura e
 
 * **Sistema de Login:** Utiliza sessões PHP para autenticação.
 * **Armazenamento de Dados:** Os dados dos chamados e informações de usuários (administradores) são persistidos em arquivos locais, definidos em uma lista "hard coded" para simplificar.
-
-## 👤 Autor
-
-* **Matheus Assis**
-    * [Link para o perfil do GitHub - se tiver]
-    * [Link para o LinkedIn - se tiver]
-
-## 🗓️ Data de Criação/Última Atualização
-
-* **Criado em:** [Data de criação do projeto, ex: 15/04/2025]
-* **Última Atualização:** [Data da última atualização, ex: 02/07/2025]
-
----
