@@ -31,7 +31,7 @@ Este projeto é um sistema de Help Desk desenvolvido para gerenciar a abertura e
 
 ## 🗓️ Data de Criação/Última Atualização
 
-* **Criado em:** [Data de criação do projeto, ex: 02/07/2025]
+* **Criado em:** [Data de criação do projeto, ex: 15/04/2025]
 * **Última Atualização:** [Data da última atualização, ex: 02/07/2025]
 
 ---
